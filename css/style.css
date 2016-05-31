@@ -1,0 +1,38 @@
+body {
+  font-size:250%;
+  padding: 3%;
+  background-color: #333;
+  color:white;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.board {
+  background-color: transparent;
+  height: 25em;
+  width: 25em;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.piece {
+  background-color: #fff;
+  height: 8em;
+  width: 8em;
+  cursor: pointer;
+}
+
+.ex {
+  background-image: url("https://cdn4.iconfinder.com/data/icons/geomicons/32/672366-x-128.png");
+  background-size: contain;
+}
+
+.oh {
+  background-image: url("http://cdn.mysitemyway.com/icons-watermarks/simple-black/alphanum/alphanum_lowercase-letter-o/alphanum_lowercase-letter-o_simple-black_128x128.png");
+  background-size: contain;
+}
+
+.score-board {
+  padding:2%;
+}
